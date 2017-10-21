@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## the function can receive a matrix and return a list includes four elements
+## set get setinv getinv
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -19,7 +20,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## this function can get the inverse of the matrix A (for example)
+## and if cacheSlove(A) was implemented before ,it will renturn the 
+## already cached value. obviously, it can save time 
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
