@@ -29,7 +29,7 @@ cacheSolve <- function(x, ...) {
                 return(m)
         }
         data <- x$get()
-        m <- inverse(data, ...)
+        m <- slove(data, ...)
         x$setinv(m)
         m
 }
